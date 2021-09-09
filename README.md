@@ -1,5 +1,5 @@
 # Replacing Docker Desktop On Mac
-Also, no Homebrew.
+Following along here: https://medium.com/nttlabs/containerd-and-lima-39e0b64d2a59
 
 ## First, qemu:
 
