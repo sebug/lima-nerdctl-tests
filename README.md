@@ -127,3 +127,9 @@ Now we can start using it
 And then verify it works with
 
 	lima uname
+
+## Creating an image
+
+	lima nerdctl build -t lima-test /Users/sgfeller/Documents/Projets/lima-nerdctl-tests/image-test
+
+	lima nerdctl run -d -p 127.0.0.1:8080:80 lima-test
